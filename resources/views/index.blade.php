@@ -1,0 +1,8 @@
+@include('layouts.user_heading')
+@include('layouts.user_nav')
+@include('layouts.user_ticker')
+@include('layouts.user_post_image')
+@yield('content')	
+@include('layouts.user_latest_post')
+@include('layouts.user_popular_post')
+@include('layouts.user_footer')
